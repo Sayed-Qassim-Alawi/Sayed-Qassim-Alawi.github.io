@@ -1,0 +1,1054 @@
+/* CSS Document for Screens */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+/* Defaults */
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #555;
+  margin: 0;
+  padding: 0px;
+  left: auto;
+  background-image: url("../images/background.jpg");
+  background-size: cover;
+}
+#page {max-width: 1200px;margin: 0 auto;position: relative;background-color: #FFF;}
+/* Text */
+h1 {
+  margin: 0 0 1em 0;
+  font-size: 2.8em;
+  font-weight: 700;
+}
+h2 {
+  margin: 0 0 .5em 0;
+  font-size: 1.6em;
+  font-weight: 700;
+  line-height: 1.1em;
+}
+h3 {
+  margin: 0 0 .5em 0;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+h4 {
+  margin: 0 0 1.5em 0;
+  font-size: 1em;
+  font-weight: 700;
+}
+p {
+  margin: 0 0 1em 0;
+}
+a {
+  color: #007eff;
+}
+a:visited {
+  color: #65B1fF;
+}
+a.btn {
+  font-size: 1.2em;
+  border: 1px solid #FFF;
+  color: #fff;
+  padding: 4px 15px;
+  transition: background-color .5s;
+  text-decoration: none;
+  background-color: rgba(0, 20, 140, 0.91);
+}
+a.btn:hover {
+  background-color: rgba(0, 20, 140, 0.34);
+}
+hr {
+  color: #CCC;
+  width: 95%;
+}
+/* Header */
+header {
+  height: 430px;
+  background: #cf0004 url("../images/banner_1200.jpg") no-repeat center bottom;
+  position: relative;
+}
+header.secondary {
+  height: 300px;
+  background: #cf0004 url("../images/banner_1200.jpg") no-repeat center bottom;
+  position: relative;
+}
+header a.logo {
+  z-index: 1;
+  position: absolute;
+  display: block;
+  width: 160px;
+  height: 66px;
+  background: url("../images/logo.svg") no-repeat 0 0;
+  background-size: contain;
+  top: 15px;
+  left: 20px;
+  margin-bottom: 1px;
+}
+header a.logo span {
+  display: none;
+}
+header div.hero {
+  position: absolute;
+  width: 68%;
+  top: 130px;
+  left: 20%;
+}
+header div.pageTitle {
+  position: absolute;
+  width: 100%;
+  top: 130px;
+  left: auto;
+}
+header div.hero h1 {
+  line-height: 1em;
+  margin: 0 0 30px 0;
+  color: #FFF;
+}
+header div.pageTitle div.heading {
+  text-align: center;
+  margin: 0;
+  color: #FFF;
+}
+/* Section All */
+section {
+  padding: 0 30px;
+}
+section.news_post {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+#page .news_post aside {
+  width: 66%;
+  display: block;
+  float: left;
+}
+#page .news_post .related_posts {
+  width: 33%;
+}
+section::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* Section Main */
+section.main {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+section.main aside {
+  width: 33%;
+  text-align: center;
+  float: left;
+}
+
+
+section.main aside .content {
+  margin: 15px;
+  background: no-repeat center top;
+  background-size: 75px 75px;
+  padding-top: 85px;
+}
+section.main aside h3 a {
+  color: #000;
+  text-decoration: none;
+}
+section.main aside h3 a:hover {
+  text-decoration: underline;
+}
+section.main aside .content.trending {
+  background-image: url(../images/icon_about.svg);
+}
+section.main aside .content.find-it {
+  background-image: url(../images/icon_news.svg);
+}
+section.main aside .content.tools {
+  background-image: url(../images/icon_contact.svg);
+}
+/* Section About */
+section.about {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+section.about aside div.about_club {
+  width: 60%;
+  margin: 0px 15px 0px 20px;
+  display: block;
+  float: left;
+  text-align: left;
+}
+section.about aside div.club_photo img {
+  width: 33%;
+  float: left;
+  border: 3px solid gray;
+  text-align: left;
+}
+/* Section News */
+section.news {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding: 0px;
+}
+#page .news .news_entry {
+    
+    width: 100%;margin-left: 20px;
+	  margin-right: 20px;
+    height: 200px;
+    ;
+    
+}
+.news .news_entry aside {
+
+}
+.news_entry aside .news_image {
+    width: 250px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    float: left;
+}
+aside .news_image img {
+    width: 100%;
+}
+.news_entry aside .news_details {
+    width: 70%;
+}
+
+/* Section Atmosphere */
+section.atmosphere {
+  background-color: #004E98;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #FFF;
+}
+/* Section About Atmosphere */
+section.atmosphere h3 {
+  text-align: center;
+}
+section.atmosphere aside div.numbers {
+  width: 25%;
+  float: left;
+  text-align: left;
+}
+section.atmosphere aside div.numbers img {
+  width: 50px;
+  margin: 20px 10px 0 20px;
+  display: block;
+  float: left;
+}
+section.atmosphere aside div.numbers strong {
+  display: block;
+  margin-top: 20px;
+}
+/* Section featured-content */
+section.featured-content {
+  background-color: #eee9d9;
+  position: relative;
+}
+section.featured-content aside {
+  width: 30%;
+  float: left;
+  margin-right: 10px;
+}
+section.featured-content aside .content {
+  padding: 30px 30px 20px 0;
+}
+section.featured-content aside .content img {
+  display: block;
+  margin-bottom: 15px;
+  width: 70%;
+}
+section.featured-content aside .content h4 {
+  margin-bottom: 0;
+}
+section.featured-content aside .content p {
+  margin-bottom: 0.5em;
+}
+section.featured-content aside .content a {
+  display: inline-block;
+  color: #cc6633;
+  font-weight: 700;
+}
+section.featured-content blockquote {
+  margin: 0;
+  width: 32%;
+  color: #444;
+  background-color: #FFF;
+  position: absolute;
+  bottom: 0;
+  right: 4%;
+}
+section.featured-content blockquote p {
+  margin: 30px 30px 20px 50px;
+}
+section.featured-content blockquote p.quote {
+  font-style: italic;
+  font-size: 1.2em;
+}
+section.featured-content blockquote p.credit {
+  color: #777;
+  font-size: .9em;
+  margin-top: 0;
+  padding-left: 20px;
+  line-height: 1.3em;
+}
+section.featured-content blockquote::before {
+  content: "\201c";
+  color: #d2bd65;
+  position: absolute;
+  top: 10px;
+  left: 8px;
+  font-size: 5em;
+  font-family: serif;
+}
+section.featured-content blockquote p.quote::after {
+  content: "\201d";
+  font-family: serif;
+}
+section.featured-content blockquote p.credit::before {
+  content: "\2014";
+  position: relative;
+  top: -1px;
+  left: -5px;
+}
+/* Section Newsletter Atmosphere */
+section.newssection .newsletter {
+  background-color: #FFFFFF;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #FFF;
+}
+.newssection p {
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 600;
+  font-style: italic;
+}
+.newssection .newsletter {
+  text-align: center;
+}
+.newssection .newsletter form input[type="email"] {
+  padding: 5px;
+  width: 400px;
+  font-style: italic;
+  color: #474747;
+  text-align: center;
+  border: 1px solid #B9B9B9;
+}
+.newssection .newsletter form input[type="submit"] {
+  padding: 5px 20px;
+  border: 1px solid #727171;
+}
+section.atmosphere article {
+  padding: 0 20px 0 515px;
+  background: url("../images/team_photo.jpg") no-repeat 0 5px;
+  min-height: 220px;
+}
+
+/* Section contact us */
+section.contact_us {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+section.contact_us aside div.contactus_form {
+  width: 66%;
+  float: left;
+  display: block;
+}
+section.contact_us aside div.contact_img {
+  width: 30%;
+  float: right;
+}
+.related_posts .content img {
+  display: block;
+  float: left;
+  margin-right: 15px;
+}
+.related_posts .content h4 {
+  margin: 0px 0px 10px 0px;
+  ;
+}
+.contact_us aside .contactus_form table tr td {
+  padding: 5px;
+}
+.contact_us aside .contactus_form table input[type="text"] {
+  width: 90%;
+  padding: 5px;
+}
+.contact_us aside .contactus_form table input[type="email"] {
+  width: 90%;
+  padding: 5px;
+}
+.contact_us aside .contactus_form table input[type="submit"] {
+  width: 150px;
+  padding: 5px;
+}
+aside .contact_img img {
+    width: 100%;
+}
+tr td textarea.msg  {
+    width: 90%;
+    height: 60px;
+}
+
+/* Team Photos */
+section.team-photo h3 {
+  text-align: center;
+}
+section.team-photo {
+  background-color: #eee9d9;
+  position: relative;
+  padding: 20px 0px 20px 20px;
+}
+section.team-photo aside {
+  width: 25%;
+  float: left;
+  margin-right: auto;
+  margin-left: auto;
+}
+section.team-photo aside div.content {
+  display: block;
+  float: left;
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+.team-photo aside div.content img {
+  width: 240px;
+  height: 135px;
+}
+/* Navigation */
+nav {
+  background-color: rgba(0, 0, 0, .65);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  padding: 50px 0 0 0;
+  width: 100%;
+}
+nav::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0px;
+}
+nav ul li:hover {
+  background-color: #2b0306;
+}
+nav ul li:hover > ul {
+  display: block;
+}
+nav ul li a {
+  display: inline-block;
+  color: #FFF;
+  padding: 10px 20px;
+	
+	  text-decoration: none;
+  width: 125px;
+  position:
+ relative;
+}
+nav ul li a:visited {
+  color: #FFF;
+}
+nav ul li a:hover {
+  background-color: #6d0911;
+}
+nav ul ul {
+  position: absolute;
+  top: 100%;
+  background-color: #2b0306;
+  display: none;
+}
+nav ul ul li {
+  position: relative;
+}
+nav ul ul ul {
+  left: 100%;
+  top: 0px;
+}
+/* top level */
+nav > ul {
+  padding-left: 200px;
+}
+nav > ul > li {
+  float: left;
+}
+nav > ul > li > a {
+  width: auto;
+  padding: 10px 20px 15px 20px;
+}
+nav a[aria-haspopup="true"]::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 0px;
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  /*border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 4px solid #FFF;*/
+}
+nav > ul > li > a[aria-haspopup="true"]::after {
+  /*border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 4px solid #FFF;*/
+  left: 20px;
+  right: auto;
+  bottom: 6px;
+  top: auto;
+}
+/* Footer */
+footer {
+  font-size: .8em;
+  margin: 40px;
+  color: #999;
+  height: 40px;
+  ;
+}
+footer .content {
+  display: inline;
+}
+footer a {
+  margin-left: 30px;
+  color: #777;
+}
+footer a:visited {
+  color: #777;
+}
+footer a:hover {
+  color: #000;
+}
+
+/* Below are the media queries used for tabets and mobiles
+
+/* Media Queries */
+@media screen and (max-width:825px) {
+  .contact_us aside .contactus_form table input[type="email"] {
+    width: 400px;
+  }
+  h1 {
+    font-size: 2.2em;
+	  
+  }
+  /* Header */
+  header {
+    height: 300px;
+    background-image: url("../images/banner_825.jpg");
+  }
+  header div.hero {
+    top: 120px;
+    left: 20%
+  }
+  /* Section - Atmophere */
+  section.atmosphere article {
+    padding-left: 325px;
+    background-size: 300px auto;
+  }
+  /* Section - How To */
+  section.featured-content blockquote p.quote {
+    font-size: 1.1em;
+    line-height: 1.2em;
+  }
+  section.featured-content blockquote p.credit {
+    font-size: .85em
+  }
+  /* Sectoin About */
+  .team-photo aside div.content img {
+    width: 180px;
+    height: 90px;
+  }
+  .team-photo aside div.content h4 {
+    font-size: .8em;
+  }
+.news_entry aside .news_details {
+    width: 60%;
+    float: left;
+}
+.news_post aside .post {
+    margin-right: 20px;
+}
+aside .post img {
+    width: 450px;
+    ;
+}
+.video {
+}
+
+tr td textarea.msg  {
+    width: 90%;
+    height: 60px;
+}
+
+.contact_us aside .contactus_form table input[type="text"] {
+  width: 90%;
+  padding: 5px;
+}
+.contact_us aside .contactus_form table input[type="email"] {
+  width: 90%;
+  padding: 5px;
+}
+
+	
+  
+}
+@media screen and (max-width:760px) {
+  h1 {
+    font-size: 1.8em;
+  }
+  h2 {
+    font-size: 1.4em;
+  }
+  h3 {
+    font-size: 1.1em;
+  }
+  a.btn {
+    font-size: 1em;
+  }
+  /* header */
+  header a.logo {
+    width: 145px;
+    height: 60px;
+  }
+  header div.hero {
+    top: 140px;
+    left: 20%;
+  }
+  /* section main */
+  section.main {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  section.main aside div.content {
+    background-size: 50px 50px;
+    padding-top: 60px;
+  }
+  /* section featured-content */
+  section.featured-content aside div.content img {
+    width: 85%;
+  }
+  /*Section About*/
+  section.about aside div.about_club {
+    width: 90%;
+    margin: 0px 15px 0px 20px;
+    display: block;
+    float: left;
+    text-align: left;
+  }
+  section.about aside div.club_photo img {
+    width: 50%;
+    float: left;
+    border: 3px solid gray;
+    text-align: left;
+    position: relative;
+    left: 25%
+  }
+  /* Section About Atmosphere */
+  section.atmosphere h3 {
+    text-align: center;
+  }
+  section.atmosphere aside div.numbers {
+    width: 25%;
+    float: left;
+    text-align: left;
+    font-size: .9em;
+  }
+  section.atmosphere aside div.numbers img {
+    width: 50px;
+    margin: 20px 10px 0 20px;
+    display: block;
+    float: left;
+  }
+  section.atmosphere aside div.numbers strong {
+    display: block;
+    margin-top: 20px;
+  }
+  /* navigation */
+  nav {
+    padding-top: 80px;
+  }
+  nav > ul {
+    padding-left: 10px;
+  }
+	
+	/*Atmosphere team members*/
+	.team-photo aside div.content img {
+    width: 170px;
+    height: 90px;
+  }
+	.team-photo aside div.content h4{ font-size: .8em;}
+.news_post aside .post {
+    width: 100%;
+}
+#page .news_post aside {
+    width: 100%;
+}
+.news_post .related_posts h3 {
+    text-align: center;
+}
+#page .news_post .related_posts {
+    width: 100%;
+}
+.news_post .related_posts .content {
+    width: 45%;
+    margin: 0 10px;
+    float: left;
+}
+aside .post .featured_img {
+    text-align: center;
+}
+
+tr td textarea.msg  {
+    width: 90%;
+    height: 60px;
+}
+
+.contact_us aside .contactus_form table input[type="text"] {
+  width: 90%;
+  padding: 5px;
+}
+.contact_us aside .contactus_form table input[type="email"] {
+  width: 90%;
+  padding: 5px;
+}
+
+
+}
+@media screen and (max-width: 625px) {
+  h1 {
+    font-size: 1em;
+  }
+  h3 {
+    margin-bottom: 0px;
+  }
+  a.btn {
+    font-size: .9em;
+  }
+  /* Header */
+  header {
+    height: 160px;
+    background-image: url("../images/banner_625.jpg");
+    background-position: left top;
+  }
+	header.secondary { height: 160px;}
+  header a.logo {
+    width: 100%;
+    height: 66px;
+    left: 0px;
+    top: 0px;
+    background-color: rgba(0, 0, 0, .65);
+    background-size: 122px 46px;
+    background-position: 20px center;
+  }
+  header div.hero {
+    width: 300px;
+    top: 85px;
+    left: 130px;
+  }
+	header.secondary div.hero {
+    width: 300px;
+    top: 85px;
+    left: 130px;
+  }
+  header div.hero h1 {
+    margin-bottom: 10px;
+  }
+	.secondary .pageTitle .heading {font-size: 2em; position: relative; bottom: 40px;}
+  /* Section Main */
+  section.main aside {
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+  section.main aside div.content {
+    margin: 8px 20px 8px 0;
+    background-position: 20px 5px;
+    padding: 5px 0px 10px 85px;
+    background-size: 50px 50px;
+  }
+  /* Section Atmosphere */
+  section.atmosphere article {
+    padding: 160px 20px 0px 0px;
+    background-size: 300px auto;
+    min-height: initial;
+  }
+	 /* Section About Atmosphere */
+  section.atmosphere h3 {
+    text-align: center;
+  }
+  section.atmosphere aside div.numbers {
+    width: 50%;
+    float: left;
+    text-align: left;
+    font-size: .9em;
+  }
+  section.atmosphere aside div.numbers img {
+    width: 50px;
+    margin: 20px 10px 0 20px;
+    display: block;
+    float: left;
+  }
+  section.atmosphere aside div.numbers strong {
+    display: block;
+    margin-top: 20px;
+  }
+	.team-photo aside div.content img {width: 135px;}
+	/* Section News */
+
+  /* Section featured-content */
+  section.featured-content aside {
+    width: 100%;
+    float: none;
+    margin: 0;
+    position: relative;
+  }
+  section.featured-content aside div.content {
+    padding: 20px 20px 20px 150px;
+  }
+  section.featured-content aside div.content p {
+    font-size: .9em
+  }
+  section.featured-content aside div.content img {
+    display: inline-block;
+    width: 125px;
+    position: absolute;
+    top: 30px;
+    left: 0px;
+  }
+  section.featured-content blockquote {
+    margin: 0 20px 0 40px;
+    width: 90%;
+    padding: 1px 0px 20px 0px;
+    position: relative;
+  }
+  section.featured-content blockquote p.credit {
+    margin-bottom: 0px;
+  }
+  /* Navigation */
+  nav {
+    position: static;
+    width: auto;
+    padding: 20px 15px;
+    background-color: #4b0a0c;
+  }
+  nav ul, nav ul ul, nav ul ul ul {
+    display: block;
+    position: static;
+  }
+  nav > ul {
+    padding: 0;
+  }
+  nav > ul > li {
+    float: none;
+    margin-top: 25px;
+  }
+  nav ul li:hover {
+    background: none;
+  }
+  nav ul li a {
+    width: auto;
+    display: block;
+    margin: 8px 10px;
+    padding: 8px 15px;
+    border: 1px solid rgba(255, 255, 255, .25);
+  }
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, .2);
+  }
+  nav ul ul {
+    background: none;
+  }
+  nav ul ul li a {
+    margin-left: 30px;
+  }
+  nav ul ul ul li a {
+    margin-left: 60px;
+  }
+  nav a[aria-haspopup="true"]::after {
+    display: none;
+  }
+  /* Footer */
+  footer div.content {
+    display: block;
+    margin-top: 15px;
+  }
+  footer div.content a {
+    margin: 0 20px 0 0;
+  }
+#page .team-photo aside {
+    width: 50%;
+}
+#page .team-photo aside .content img {
+    width: 63%;
+    ;
+}
+.news_entry aside .news_details {
+    margin: 0px 20px;
+    width: 90%;
+}
+	aside .news_image {
+    width: 100%;
+}
+.news_entry aside .news_image {
+    width: 100%;
+	text-align: center;
+}
+
+aside .news_image img {
+    width: 450px;
+
+}
+tr td textarea.msg  {
+    width: 90%;
+    height: 60px;
+}
+.contact_us aside .contactus_form table input[type="text"] {
+  width: 90%;
+  padding: 5px;
+}
+.contact_us aside .contactus_form table input[type="email"] {
+  width: 90%;
+  padding: 5px;
+}
+}
+@media screen and (max-width: 425px) {
+  /* Header */
+  header {
+    height: 110px;
+    background-image: url("../images/banner_425.jpg");
+  }
+	header.secondary { height: 110px;}
+  header a.logo {
+    height: 36px;
+    background: rgba(0, 0, 0, .65) url("../images/slogo.svg") no-repeat center center;
+    background-size: 126px 17px;
+	  
+  }
+  header div.hero {
+    width: 100%;
+    left: 0px;
+    top: 46px;
+    text-align: center;
+  }
+  header div.hero h1 {
+    font-size: 1em;
+    margin-bottom: 10px;
+  }
+  header div.hero a.btn {
+    padding: 2px 30px;
+    font-size: 0.8em;
+  }
+  header div.hero a.btn span {
+    display: none;
+  }
+	.secondary .pageTitle .heading {font-size: 1.5em; position: relative; bottom: 70px;}
+	/* Section About Atmosphere */
+  section.atmosphere h3 {
+    text-align: center;
+  }
+  section.atmosphere aside div.numbers {
+    width: 100%;
+    float: left;
+    text-align: left;
+    font-size: .9em;
+  }
+  section.atmosphere aside div.numbers img {
+    width: 50px;
+    margin: 20px 10px 0 20px;
+    display: block;
+    float: left;
+  }
+  section.atmosphere aside div.numbers strong {
+    display: block;
+    margin-top: 20px;
+  }
+  /* Section featured-content */
+  section.featured-content aside div.content {
+    padding: 140px 20px 20px 0;
+  }
+  section.featured-content aside div.content img {
+    width: auto;
+    height: 100px;
+    top: 30px;
+  }
+  section.featured-content blockquote {
+    margin: 10px 40px 0 20px;
+  }
+  /* Footer */
+  footer::after {
+    content: "";
+    display: block;
+    clear: both;
+  }
+  footer div.content a {
+    display: inline-block;
+    margin: 0 0 10px 0px;
+    float: left;
+    clear: both;
+  }
+#page .team-photo aside {
+    width: 100%;
+}
+#page .team-photo aside .content img {
+    width: 100%;
+    height: 100%;
+}
+#page .team-photo aside .content h4 {
+    font-size: 1.2em;
+}
+aside .about_club h1 {
+    font-size: 1.4em;
+}
+.news_post .related_posts .content {
+    margin: 10px;
+    width: 100%;
+}
+
+tr td textarea.msg  {
+    width: 90%;
+    height: 60px;
+}
+
+.contact_us aside .contactus_form table input[type="text"] {
+  width: 90%;
+  padding: 5px;
+}
+.contact_us aside .contactus_form table input[type="email"] {
+  width: 90%;
+  padding: 5px;
+}
+.contact_us aside .contact_img {
+    display: none;
+}
+#page .contact_us aside {
+
+}
+.contact_us aside .contact_img {
+    display: none;
+}
+.contact_us aside .contactus_form {
+    width: 400px;
+	
+}
+#page .contact_us aside {
+    width: 100%;
+}
+
+}
+ @media only screen and (min-width: 826px) and (max-width: 1166px)  {
+#page .news_post aside .post {
+    width: 90%;
+
+	display: block;
+}
+.post .featured_img img {
+    width: 100%;
+}
+
+
+      
+    }
